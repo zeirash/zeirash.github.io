@@ -35,6 +35,12 @@ section {
     padding: 100px;
 }
 
+.icon-tech {
+    font-size: 1.5rem;
+    margin: 3px;
+    /* color: var(--text-color-2); */
+}
+
 @media (max-width:991.98px) {
     .intro_sec {
         display: block;
@@ -53,19 +59,19 @@ section {
         width: 100%;
     }
 }
-
+/* 
 .intro_sec .intro {
     max-width: 450px;
     margin: 0 auto;
-}
+} */
 
-@media (max-width:991.98px) {
+/* @media (max-width:991.98px) {
     .intro_sec .intro {
         max-width: 700px;
-        /* padding-left: 20px;
-        padding-right: 20px; */
+        padding-left: 20px;
+        padding-right: 20px;
     }
-}
+} */
 
 .intro_sec .intro .feature .wrap-icon {
     background: 0 0!important;

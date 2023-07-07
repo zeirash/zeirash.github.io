@@ -1,17 +1,17 @@
-.about_header {
+.about-header {
     padding: 100px;
 }
 
 @media (max-width:991.98px) {
-    .about_header {
+    .about-header {
         display: block;
         height: auto!important;
         padding: 30px;
     }
 }
 
-.title_name {
-    font-size: 3rem;
+.title-name {
+    font-size: 2.5rem;
     font-weight: 600;
 }
 
@@ -20,9 +20,10 @@
 }
 
 .section-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
     position: relative;
     padding-bottom: 7px;
+    font-weight: 800;
   }
 
 .section-title::after {
@@ -40,11 +41,21 @@
     margin: 1rem 0;
 }
 
-.company-content {
+.company-location {
+    font-size: .9rem;
+    margin-top: .3rem;
+}
+
+.location-icon {
+    margin-right: 5px;
+}
+
+.place-content {
     color: var(--text-color-2);
 }
 
-.company-title {
+.place-title {
+    font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
 }
@@ -59,9 +70,12 @@ ul li::before {
 }
 
 .role-title {
-    margin-bottom: .5rem;
+    margin-bottom: .2rem;
 }
 
+.education-location {
+    margin-top: 1rem;
+}
 /* .po_items_ho {
     column-width: 15em;
     -moz-column-width: 15em;

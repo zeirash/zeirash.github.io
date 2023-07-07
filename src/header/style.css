@@ -1,7 +1,10 @@
 .site__header {
-    top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    /* top: 10px; */
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    padding: 10px 35px;
+    background: var(--overlay-color);
+    backdrop-filter: blur(5px);
 }
 
 .menu__button {
@@ -22,15 +25,15 @@
 }
 
 .nav_ac {
-    padding: 5px 15px;
+    /* padding: 5px 15px; */
     margin: 0;
     border: unset;
-    background: var(--primary-color);
+    /* background: var(--primary-color); */
     font-size: 1.25rem;
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
     line-height: 2;
-    height: 50px;
+    /* height: 50px; */
     font-weight: bold;
     z-index: 1000;
 }
@@ -50,7 +53,7 @@
 
 .br-top {
     top: 0;
-    height: 10px;
+    /* height: 10px; */
     left: 0;
     width: 100%;
 }
