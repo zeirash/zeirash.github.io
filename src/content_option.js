@@ -1,4 +1,4 @@
-const logotext = "JOHN";
+const logotext = "@zeirash";
 const meta = {
     title: "Tiffany",
     description: "I’m Tiffany data scientist _ Full stack devloper,currently working in Berlin",
@@ -117,28 +117,6 @@ const educations = [
     },
 ];
 
-const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
-    },
-];
-
 const services = [{
         title: "UI & UX Design",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
@@ -216,17 +194,6 @@ const dataportfolio = [{
     },
 ];
 
-const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
-};
-
 const socialprofiles = {
     github: "https://github.com/zeirash",
     linkedin: "https://id.linkedin.com/in/zeirash",
@@ -237,10 +204,8 @@ export {
     dataabout,
     dataportfolio,
     worktimeline,
-    skills,
     services,
     introdata,
-    contactConfig,
     socialprofiles,
     logotext,
     educations,
