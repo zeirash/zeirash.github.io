@@ -1,7 +1,7 @@
 const logotext = "@zeirash";
 const meta = {
     title: "Tiffany",
-    description: "I’m Tiffany data scientist _ Full stack devloper,currently working in Berlin",
+    description: "Tiffany - Software Engineer",
 };
 
 const introdata = {
@@ -16,7 +16,7 @@ const introdata = {
 };
 
 const dataabout = {
-    title: "abit about my self",
+    title: "about about my self",
     aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
 };
 
