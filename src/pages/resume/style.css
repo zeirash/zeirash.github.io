@@ -1,7 +1,8 @@
 .about-header {
-    padding: 100px;
+    padding: 160px 100px 100px 100px;
     background-image: url("/public/background-dark-red.jpg");
     background-size: cover;
+    margin-top: -60px;
 }
 
 @media (max-width:991.98px) {
