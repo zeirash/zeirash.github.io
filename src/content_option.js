@@ -20,12 +20,6 @@ const projects = [
         header: "Work Projects",
         details: [
             {
-                name: "Tokopedia",
-                note: "A leading e-commerce company in Indonesia.",
-                url: "https://www.tokopedia.com/",
-                url_name: "Website",
-            },
-            {
                 name: "TIX ID",
                 note: "Indonesia's largest cinema ticketing and entertainment content platform.",
                 url: "https://www.tix.id/",

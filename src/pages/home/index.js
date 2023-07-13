@@ -18,7 +18,7 @@ export const Home = () => {
           <title>{meta.title}</title>
           <meta name="description" content={meta.description} />
         </Helmet>
-        <div className="intro-sec">
+        <div className="intro-sec background-wrap">
           <div className="text h-100 d-lg-flex">
             <div className="align-self-center">
               <div className="mx-auto">
@@ -68,9 +68,15 @@ export const Home = () => {
                 </div>
               </div>
             </div>
+            <div className="align-self-center mx-auto">
+              <div className="image-wrapper">
+                <img src="/profile-circle.png" style={{width: "250px", height: "250px"}} />
+              </div>
+            </div>
           </div>
         </div>
 
+        <hr style={{color: "#888888", marginTop: "0"}}/>
         <div className="intro-sec">
           {projects.map((data, i) => {
             return (
