@@ -2,11 +2,11 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
-import { introdata, meta } from "../../content_option";
+import { introdata, meta, projects } from "../../content_option";
 import { Link } from "react-router-dom";
 import { FaGolang, FaNodeJs, FaGitAlt , FaReact } from "react-icons/fa6";
 import { DiPostgresql, DiRubyRough } from "react-icons/di";
-import { BiLogoTypescript } from "react-icons/bi";
+import { BiLogoTypescript, BiLink } from "react-icons/bi";
 import { SiGraphql } from "react-icons/si";
 
 export const Home = () => {
@@ -18,19 +18,21 @@ export const Home = () => {
           <title>{meta.title}</title>
           <meta name="description" content={meta.description} />
         </Helmet>
-        <div className="intro_sec">
+        <div className="intro-sec">
           <div className="text h-100 d-lg-flex">
-            <div className="align-self-center ">
+            <div className="align-self-center">
               <div className="mx-auto">
                 <h1 className="mb-1x">{introdata.title}</h1>
-                  <FaGolang className="icon-tech" />
-                  <FaNodeJs className="icon-tech" />
-                  <DiPostgresql className="icon-tech" />
-                  <FaGitAlt className="icon-tech" />
-                  <DiRubyRough className="icon-tech" />
-                  <FaReact className="icon-tech" />
-                  <BiLogoTypescript className="icon-tech" />
-                  <SiGraphql className="icon-tech" />
+                  <div className="mb-2">
+                    <FaGolang className="icon-tech" />
+                    <FaNodeJs className="icon-tech" />
+                    <DiPostgresql className="icon-tech" />
+                    <FaGitAlt className="icon-tech" />
+                    <DiRubyRough className="icon-tech" />
+                    <FaReact className="icon-tech" />
+                    <BiLogoTypescript className="icon-tech" />
+                    <SiGraphql className="icon-tech" />
+                  </div>
                 <h1 className="fluidz-48 mb-1x">
                   <Typewriter
                     options={{
@@ -68,6 +70,45 @@ export const Home = () => {
             </div>
           </div>
         </div>
+
+        <div className="intro-sec">
+          {projects.map((data, i) => {
+            return (
+              <div key={i} className="section-content">
+                <h4 className="section-title">
+                  {data.header}
+                </h4>
+                {data.details.map((detail, j) => {
+                  var link = ""
+                  if (detail.url !== "") {
+                    link = <div className="link-project">
+                              <a href={detail.url}>
+                              <BiLink /> {detail.url_name}
+                            </a>
+                          </div>
+                  };
+
+                  return (
+                    <div>
+                      <div key={j} className="section-place">
+                        <h3 className="project-title">
+                          {detail.name}
+                        </h3>
+                        <div className="place-content">
+                          <div className="place-note">
+                            {detail.note}
+                          </div>
+                          {link}
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            );
+          })}
+        </div>
+
       </section>
     </HelmetProvider>
   );

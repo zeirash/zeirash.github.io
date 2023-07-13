@@ -7,18 +7,56 @@ const meta = {
 const introdata = {
     title: "Hey! I'm Tiffany",
     animated: {
-        first: "I love coding",
-        second: "I develop web application",
-        third: "I can do both",
+        first: "Web development",
+        second: "Backend development",
+        // third: "I can do both",
     },
-    description: "I'm a Software Developer from Indonesia, currently working in Bangkok.",
+    description: "I'm a Software Engineer from Indonesia, currently working in Bangkok. I help companies develop and maintain their website and mobile-apps.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
-const dataabout = {
-    title: "about about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
-};
+const projects = [
+    {
+        header: "Work Projects",
+        details: [
+            {
+                name: "Tokopedia",
+                note: "A leading e-commerce company in Indonesia.",
+                url: "https://www.tokopedia.com/",
+                url_name: "Website",
+            },
+            {
+                name: "TIX ID",
+                note: "Indonesia's largest cinema ticketing and entertainment content platform.",
+                url: "https://www.tix.id/",
+                url_name: "Website",
+            },
+            {
+                name: "PoS KFC + DANA",
+                note: "Internal Point of Sales system for KFC collaborate with DANA (Digital wallet from Indonesia).",
+                url: "",
+                url_name: "",
+            },
+        ],
+    },
+    {
+        header: "Other Projects",
+        details: [
+            {
+                name: "LocalACC",
+                note: "A windows application for sales transaction accountancy.",
+                url: "https://github.com/zeirash/LocalACC/",
+                url_name: "Github",
+            },
+            {
+                name: "Obserfy",
+                note: "A contributor in this open source project. A record keeping and parent communication tool for Montessori schools.",
+                url: "https://github.com/obserfy/obserfy/",
+                url_name: "Github",
+            },
+        ],
+    },
+]
 
 const worktimeline = [
     {
@@ -201,7 +239,6 @@ const socialprofiles = {
 };
 export {
     meta,
-    dataabout,
     dataportfolio,
     worktimeline,
     services,
@@ -209,4 +246,5 @@ export {
     socialprofiles,
     logotext,
     educations,
+    projects,
 };

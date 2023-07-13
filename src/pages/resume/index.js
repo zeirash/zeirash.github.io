@@ -25,7 +25,7 @@ export const Resume = () => {
           </h4>
           {worktimeline.map((data, i) => {
             return (
-              <div key={i} className="section-company">
+              <div key={i} className="section-place">
                 <h3 className="place-title">
                   {data.where}
                   <div className="company-location"><FaLocationDot className="location-icon" />{data.location}</div>
@@ -58,7 +58,7 @@ export const Resume = () => {
           </h4>
           {educations.map((data, i) => {
             return (
-              <div key={i} className="section-company">
+              <div key={i} className="section-place">
                 <h3 className="place-title">
                   {data.where}
                 </h3>
@@ -68,7 +68,7 @@ export const Resume = () => {
                       {data.major}
                     </h6>
                   </div>
-                  <div className="education-note">
+                  <div className="place-note">
                     {data.note}
                   </div>
                   <div className="education-location"><FaLocationDot className="location-icon" />{data.location}</div>
