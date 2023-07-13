@@ -70,7 +70,7 @@ export const Home = () => {
             </div>
             <div className="align-self-center mx-auto">
               <div className="image-wrapper">
-                <img src="/profile-circle.png" style={{width: "250px", height: "250px"}} />
+                <img src="/profile-circle.png" alt="@zeirash" />
               </div>
             </div>
           </div>

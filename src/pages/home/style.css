@@ -48,6 +48,11 @@ section {
     text-align: center;
 }
 
+.image-wrapper img {
+    width: 250px;
+    height: 250px;
+}
+
 @media (max-width:991.98px) {
     .intro-sec {
         display: block;
@@ -62,6 +67,11 @@ section {
     .image-wrapper {
         margin-top: 50px;
         margin-bottom: 50px;
+    }
+
+    .image-wrapper img {
+        width: 150px;
+        height: 150px;
     }
 }
 
