@@ -37,6 +37,12 @@ const projects = [
         header: "Other Projects",
         details: [
             {
+                name: "Recapo",
+                note: "Order management system for small online sellers to manage orders, customers, and products in one place.",
+                url: "https://www.recapoapp.com/",
+                url_name: "Website",
+            },
+            {
                 name: "LocalACC",
                 note: "A windows application for sales transaction accountancy.",
                 url: "https://github.com/zeirash/LocalACC/",
@@ -54,12 +60,28 @@ const projects = [
 
 const worktimeline = [
     {
+        where: "TableCheck",
+        location: "Tokyo, Japan",
+        jobtitle: [
+            {
+                title: "Software Engineer",
+                date: "Apr 24-now",
+                jobdesks: [
+                    "Develop LINE integration with menu selection, enabling reservation booking through it",
+                    "Integrated and maintained multiple POS systems (Shiji, Oracle Simphony, Smaregi, etc.)",
+                    "Maintaining and successfully onboard multiple hotels to TableCheck's PMS service",
+                    "Developed automated reporting system for business analytics and client insights",
+                ]
+            }
+        ]
+    },
+    {
         where: "Omise (Opn)",
         location: "Bangkok, Thailand",
         jobtitle: [
             {
                 title: "Software Engineer",
-                date: "Jul 22-now",
+                date: "Jul 22-Mar 24",
                 jobdesks: [
                     "Develop and maintain backend core module in ruby on rails in monolithic architecture",
                     "Write unit test and automation test using robocop framework",
@@ -122,7 +144,7 @@ const worktimeline = [
         location: "Jakarta, Indonesia",
         jobtitle: [
             {
-                title: "IT Analyst Intern",
+                title: "IT Analyst [Intern]",
                 date: "Sep 17-Feb 18",
                 jobdesks: [
                     "Migrate ETL jobs from old to new ETL tools",
